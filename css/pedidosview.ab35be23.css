@@ -1,0 +1,55 @@
+#burger-table[data-v-439d6d47] {
+    max-width: 1200px;
+    margin: 0 auto
+}
+
+#burger-table-heding[data-v-439d6d47],
+#burger-table-rows[data-v-439d6d47],
+.burger-table-row[data-v-439d6d47] {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px
+}
+
+#burger-table-heding[data-v-439d6d47] {
+    font-weight: 700;
+    padding: 12px;
+    border-bottom: 3px solid #333
+}
+
+#burger-table-heding td[data-v-439d6d47],
+.burger-table-row td[data-v-439d6d47] {
+    width: 19%
+}
+
+#burger-table-rows[data-v-439d6d47] {
+    padding: 12px;
+    border-bottom: 1px solid #ccc
+}
+
+#burger-table-heding .order-id[data-v-439d6d47],
+.burger-table-row .order-number[data-v-439d6d47] {
+    width: 5%
+}
+
+select[data-v-439d6d47] {
+    padding: 12px 6px;
+    margin-right: 12px
+}
+
+.delete-btn[data-v-439d6d47] {
+    background-color: #222;
+    color: #fbca03;
+    font-weight: 700;
+    border: 2px solid #222;
+    padding: 10px;
+    font-size: 16px;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: .5s
+}
+
+.delete-btn[data-v-439d6d47]:hover {
+    background-color: transparent;
+    color: #222
+}
